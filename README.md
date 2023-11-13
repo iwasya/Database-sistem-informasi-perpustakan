@@ -29,7 +29,7 @@ Ini adalah sebuah database MySQL (MariaDB) yang mewakili skema dan data untuk si
 Selain itu, terdapat beberapa constraint dan foreign key yang menghubungkan tabel-tabel tersebut, seperti foreign key pada tabel `tb_peminjaman` dan `tb_pengembalian` yang terhubung dengan tabel `tb_anggota`, `tb_buku`, `tb_denda`, dan `tb_petugas`.
 
 ### Langkah 1: Persiapkan `Database`
-Pastikan MariaDB sudah terinstall di sistem kamu dan kamu memiliki akses untuk membuat dan mengelola database.
+Pastikan MariaDB sudah terinstall di sistem kamu dan kamu memiliki akses untuk membuat dan mengelola database jika belum, anda bisa download dan install sesuai sistem operasi anda : https://bit.ly/3SJISAN
 
 ### Langkah 2: Gunakan Perintah `mysql` atau `mysqlimport`
 
@@ -59,7 +59,7 @@ Pastikan MariaDB sudah terinstall di sistem kamu dan kamu memiliki akses untuk m
    ```
    Pastikan untuk menggantikan `/path/to/your/sql/file.sql` dengan path yang benar ke file SQL kamu.
 
-Cara Import `database`:
+### Cara Import `database`Melalui phpMyAdmin :
 1) Buka phpMyAdmin di browser.
 2) Buat Database Baru:
    - Klik "Database" di menu atas.
@@ -68,5 +68,5 @@ Cara Import `database`:
    - Klik nama database yang baru dibuat di panel kiri.
    - Pilih Tab "SQL".
 4) Impor Skrip SQL:
-  - Klik "Choose File" dan pilih file SQL kamu.
-  - Klik "Go" atau "Import" untuk memulai proses impor.
+   - Klik "Choose File" dan pilih file SQL kamu.
+   - Klik "Go" atau "Import" untuk memulai proses impor.
