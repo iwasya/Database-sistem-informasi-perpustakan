@@ -28,6 +28,7 @@ Ini adalah sebuah database MySQL (MariaDB) yang mewakili skema dan data untuk si
 
 Selain itu, terdapat beberapa constraint dan foreign key yang menghubungkan tabel-tabel tersebut, seperti foreign key pada tabel `tb_peminjaman` dan `tb_pengembalian` yang terhubung dengan tabel `tb_anggota`, `tb_buku`, `tb_denda`, dan `tb_petugas`.
 
+### Langkah-langkah mengimpor sistem informasi perpustakaan
 ### Langkah 1: Persiapkan `Database`
 Pastikan MariaDB sudah terinstall di sistem kamu dan kamu memiliki akses untuk membuat dan mengelola database jika belum, anda bisa download dan install sesuai sistem operasi anda : https://bit.ly/3SJISAN
 
