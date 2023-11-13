@@ -1,6 +1,6 @@
-###Library Management System (Sistem Informasi Perpustakaan)
+### Library Management System (Sistem Informasi Perpustakaan)
 
-File SQL yang merupakan sebuah database MySQL (MariaDB) yang mewakili skema dan data untuk sistem informasi perpustakaan. Berikut adalah penjelasan singkat mengenai struktur tabel dan beberapa data yang disertakan:
+Ini adalah sebuah database MySQL (MariaDB) yang mewakili skema dan data untuk sistem informasi perpustakaan. Berikut adalah penjelasan singkat mengenai struktur tabel:
 
 1. **Tabel `tb_anggota`:**
    - Menyimpan informasi anggota perpustakaan seperti nama, nomor telepon, dan alamat.
