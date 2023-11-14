@@ -60,7 +60,7 @@ Pastikan Xampp sudah terinstall di sistem kamu dan kamu memiliki akses untuk mem
    ```
    Pastikan untuk menggantikan `/path/to/your/sql/file.sql` dengan path yang benar ke file SQL kamu.
 
-### Cara Import `database`Melalui phpMyAdmin :
+### Cara Import `database` Melalui phpMyAdmin :
 1) Buka phpMyAdmin di browser.
 2) Buat Database Baru:
    - Klik "Database" di menu atas.
