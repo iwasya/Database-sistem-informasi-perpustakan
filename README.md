@@ -1,6 +1,6 @@
 ### Library Management System (Sistem Informasi Perpustakaan)
 
-Ini adalah sebuah database MySQL (MariaDB) yang mewakili skema dan data untuk sistem informasi perpustakaan. Berikut adalah penjelasan singkat mengenai struktur tabel:
+Ini adalah sebuah database MySQL (Xampp) yang mewakili skema dan data untuk sistem informasi perpustakaan. Berikut adalah penjelasan singkat mengenai struktur tabel:
 
 1. **Tabel `tb_anggota`:**
    - Menyimpan informasi anggota perpustakaan seperti nama, nomor telepon, dan alamat.
@@ -30,7 +30,7 @@ Selain itu, terdapat beberapa constraint dan foreign key yang menghubungkan tabe
 
 ### Langkah-langkah mengimpor sistem informasi perpustakaan
 ### Langkah 1: Persiapkan `Database`
-Pastikan Xampp sudah terinstall di sistem kamu dan kamu memiliki akses untuk membuat dan mengelola database jika belum, anda bisa download dan install sesuai sistem operasi anda : https://bit.ly/3SJISAN
+Pastikan `Xampp` sudah terinstall di sistem kamu dan kamu memiliki akses untuk membuat dan mengelola database jika belum, anda bisa download dan install sesuai sistem operasi anda : https://bit.ly/3SJISAN
 
 ### Langkah 2: Gunakan Perintah `mysql` atau `mysqlimport`
 
